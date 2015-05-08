@@ -1,0 +1,117 @@
+$container-width: 620px;
+$column-gutter: 20px;
+$small-container-width: 90%;
+$total-columns: 12;
+
+$base-line-height: 1.443;
+$base-font-size: 16px;
+$base-font-color: #454545;
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-weight: normal;
+
+// =Alpha
+$site-alpha: .65;
+
+// =Colors
+$color-white: #ffffff;
+$color-black: #000000;
+$color-grey: #9e9e9e;
+$color-light-grey: #e5e5e5;
+$color-dark-grey: #5c5b59;
+$color-off-white: #e5e5e5;
+
+// =Brand Palette
+$color-brand-primary: #ae4517; // Headings
+$color-brand-secondary: $base-font-color; // Text
+$color-brand-tertiary: $color-white; // Background
+$color-brand-quaternary: #678924; // Accent
+$color-brand-quinary: #e5dfd1; // Accent
+
+// =Default Text Colors
+$base-font-color: $color-brand-secondary;
+$base-accent-color: $color-brand-tertiary;
+$heading-color: $color-brand-primary;
+$heading-color-alt: $color-brand-secondary;
+
+// Border-radius
+$base-border-radius: 3px;
+
+// =Links
+$base-link-bg: null;
+$base-link-color: $color-brand-quaternary;
+$base-link-color-hover: #7ec4bd;
+$base-link-font-weight: 700;
+$base-link-text-decoration: none !default;
+$base-link-color-alt: $color-brand-secondary;
+$base-link-color-alt-hover: #6485b1;
+
+// =Email Links
+$email-link-color: $base-link-color;
+$email-link-color-hover: shade($base-link-color, 10%);
+$email-link-font-weight: 700;
+$email-text-decoration: none;
+
+// =Phone Links
+$phone-link-color: $color-brand-quinary;
+$phone-link-color-hover: shade($base-link-color, 10%);
+$phone-link-font-weight: 700;
+$phone-text-decoration: none;
+
+// =Typography Basics
+$base-font-reset: 10px !default;
+$base-font-size: 16 !default;
+$base-line-height: 1.5625;
+$lede-font-size: $base-font-size * 1.125;
+$body-text: $base-font-size;
+$small-body-text: $base-font-size * .875;
+$disclaimer-text: $base-font-size * .75;
+$legal-text: $base-font-size * .6875;
+
+// =Font Families
+$base-font-family: 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
+$heading-font-family: 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
+$heading-font-family-alt: 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
+
+// =Headings
+$heading-color-primary: $color-brand-quaternary;
+$heading-color-secondary: $color-brand-secondary;
+$heading-line-height: 1.25;
+
+$heading-list: (
+  h1   32   700   $heading-font-family    		$heading-color-primary,
+  h2   28   700   $heading-font-family				$heading-color-primary,
+  h3   24   400   $heading-font-family   			$heading-color-secondary,
+  h4   19   200   $heading-font-family-alt    $heading-color-primary,
+  h5   16   700   $heading-font-family-alt    $heading-color-secondary,
+  h6   16   100   $heading-font-family    		$heading-color-secondary
+);
+
+// =Header
+$header-bg: rgba($color-off-white, .9);
+$header-border: $color-grey;
+$header-color: $base-font-color;
+$header-link: $base-link-color;
+$header-link-hover: #6485b1;
+
+// =Footer
+$footer-bg: null;
+$footer-font-size: $disclaimer-text;
+$footer-link-font-weight: 700;
+$footer-text: $color-grey;
+$footer-link-color: $color-brand-quaternary;
+$footer-link-color-hover: $base-link-color-hover;
+
+// =Horizontal Rule
+$hr-color-top: $color-brand-tertiary;
+$hr-color-bottom: tint($color-brand-primary, 70%);
+
+// =Buttons
+$base-button-color: $color-brand-quaternary;
+$base-button-color-hover: rgba($base-button-color, .8);
+$button-border-radius: 0 !default;
+
+// =Images
+$image-border: null;
+$image-box-shadow: 0 0 2px 0 $color-grey;
+
+$support-legacy: true;

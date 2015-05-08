@@ -1,0 +1,13 @@
+// Transform
+@mixin rotate($degrees) {
+  @if not unitless($degrees) {
+    $degrees: strip-units($degrees);
+  }
+  will-change: transform;
+  transform: rotate($degrees * 1deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
+  @if $support-legacy {
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+  }
+  zoom: 1;
+}

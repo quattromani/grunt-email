@@ -1,0 +1,28 @@
+// Build Font-Face
+@each $font-face-name, $font-face in $font-faces {
+
+  $font-weight: 'normal';
+  $font-style: 'normal';
+
+  // check if we are passing a list
+  @if (type-of($font-face) == list) {
+    $font-weight: nth($font-face, 2);
+    $font-style: if(length($font-face) == 3, nth($font-face, 3), 'normal');
+  }
+
+  // generate all font faces using their appropriate weights & styles
+  @font-face {
+    font-family: $font-face-name;
+    src: url('#{$font-path}#{nth($font-face, 1)}.eot');
+    src: url('#{$font-path}#{nth($font-face, 1)}.eot?') format('eot'),
+    url('#{$font-path}#{nth($font-face, 1)}.woff') format('woff'),
+    url('#{$font-path}#{nth($font-face, 1)}.ttf')  format('truetype');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+
+  // generate placeholders so we can extend when we need to use a font
+  %#{$font-face-name} {
+    @include font($font-face-name, $font-style, $font-weight);
+  }
+}

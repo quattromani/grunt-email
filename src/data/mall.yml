@@ -1,0 +1,30 @@
+# Site settings
+title: Responsive Email
+version: 0.0.1
+author: Max Quattromani
+email: max@maxquattromani.com
+description: ""
+baseurl: "/"
+url: "http://maxquattromani.com"
+author: "Max Quattromani"
+twitter_username: maxquattromani
+github_username:  quattromani
+
+# Build settings
+exclude: ['node_modules', 'scss', 'DAM']
+
+google-fonts: 'Pacifico'
+
+subject: 'Big Savings this Weekend!'
+
+toast: 'This is a toast - it will appear in the preview pane of the email client, use wisely!'
+
+name: Outlets at the Dells
+streetaddress: 608 North Gasser Road
+city: Baraboo
+state: WI
+zip: 53913
+phone-area: 608
+phone-prefix: 253
+phone-number: 5380
+hours: 9am - 6pm

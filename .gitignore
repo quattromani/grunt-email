@@ -1,0 +1,8 @@
+# Ignore output files
+dist
+
+# Ignore node_modules
+/node_modules
+
+# Ignore sublime project files
+*.sublime-*

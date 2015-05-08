@@ -1,0 +1,152 @@
+.google-font {
+	font-family: 'Pacifico', cursive;
+}
+
+p,
+span,
+figcaption {
+	hyphens: auto;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.toast {
+	display: none;
+	width: 0;
+	max-width: 0;
+	height: 0;
+	max-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	opacity: 0;
+	mso-hide: all;
+	visibility: hidden;
+	color: transparent;
+}
+
+.header {
+	background-color: $color-white;
+
+	td {
+		width: 50%;
+		vertical-align: middle;
+	}
+
+	ul {
+		@include horizontal-list;
+		margin: 0;
+	}
+}
+
+.hero {
+	img {
+		outline: 2px solid $color-brand-primary;
+	}
+}
+
+.hours {
+	table {
+		outline: 2px solid $color-brand-primary;
+		background-color: $color-brand-primary;
+	}
+
+	span {
+		font-weight: bold;
+		color: white;
+	}
+}
+
+.legend {
+	width: 100%;
+
+	table {
+		border-collapse: seperate;
+		padding: 10px;
+		outline: 2px solid $color-brand-quinary;
+		background-color: $color-brand-quinary;
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		td {
+			width: 25%;
+			text-align: center;
+
+			a {
+				color: #957c55 !important;
+			}
+		}
+
+		img {
+			float: none;
+			margin: 0 auto;
+		}
+	}
+
+	@include horizontal-list;
+	margin: 0;
+}
+
+.ads {
+	img {
+		margin-bottom: 10px;
+		outline: 2px solid $color-brand-primary;
+
+		&.iab {
+			outline: 2px solid $color-dark-grey;
+		}
+	}
+}
+
+figcaption {
+	text-align: center;
+	font-weight: bold;
+
+	span {
+		display: block;
+		color: $color-brand-quaternary !important;
+	}
+
+	.iab {
+		font-weight: 400;
+		color: $color-grey !important;
+		text-transform: uppercase;
+	}
+}
+
+.footer {
+	table {
+		outline: 2px solid $color-brand-primary;
+		background-color: $color-brand-primary;
+	}
+
+	span {
+		color: $color-white;
+	}
+}
+
+.text-right {
+	text-align: right;
+}
+
+.apple-links-white {
+	color: $color-white !important;
+	text-decoration: none;
+
+	a {
+		color: $color-white !important;
+		text-decoration: none;
+	}
+}
+
+.apple-links-black {
+	color: $color-black !important;
+	text-decoration: none;
+
+	a {
+		color: $color-black !important;
+		text-decoration: none;
+	}
+}

@@ -1,26 +1,38 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <title>Responsive Email Template</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width"/>
-  <title>{{ subject }}</title>
-  <link href="../src/css/main.css" media="all" rel="stylesheet" type="text/css" />
-</head>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>{{ mall.subject }}</title>
+		<meta name="format-detection" content="telephone=no">
+		<link href='http://fonts.googleapis.com/css?family={{mall.google-fonts}}' rel='stylesheet' type='text/css'>
+		<!-- build:css css/tidy.css -->
+		<link rel="stylesheet" href="css/main.css">
+		<!-- /build -->
+	</head>
+	<body>
 
-<body>
+		{{> toast }}
 
-  <table class="body">
-   <tr>
-    <td></td>
-    <td class="container">
-     <div class="content">
-      {{ body }}
-    </div>
-  </td>
-  <td></td>
-</tr>
-</table>
+		<table class="body">
+			<tr>
+				<td class="center" align="center" valign="top">
+					<center>
 
-</body>
+						{{> pre-header }}
+
+						{{> header }}
+
+						{{ body }}
+
+						{{> footer }}
+
+						{{> post-footer }}
+
+					</center>
+				</td>
+			</tr>
+		</table>
+
+	</body>
 </html>

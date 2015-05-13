@@ -1,16 +1,53 @@
-<table class="row footer">
-	<tr>
-		<td class="wrapper last">
-			<table class="twelve columns">
-				<tr>
-					<td align="center">
-						<center>
-						<span class="center apple-links-white">{{mall.streetaddress}}, {{mall.city}}, {{mall.state}}, {{mall.zip}} | <a href="tel:{{mall.phone-area}}.{{mall.phone-prefix}}.{{mall.phone-number}}">({{mall.phone-area}}) {{mall.phone-prefix}}-{{mall.phone-number}}</a></span>
-						</center>
-					</td>
-					<td class="expander"></td>
-				</tr>
-			</table>
-		</td>
-	</tr>
+<table class="container footer">
+  <tr>
+    <td>
+      <table width="100%">
+        <tr>
+          <td width="27%"></td>
+          <td class="center">
+            <a href="https://www.facebook.com/{{ mall.facebook }}">
+              <img class="center" src="https://s3.amazonaws.com/placewiseemailcontent/FCE/social-icons/facebook.png">
+            </a>
+          </td>
+          <td class="center">
+            <a href="https://twitter.com/{{ mall.twitter }}">
+              <img class="center" src="https://s3.amazonaws.com/placewiseemailcontent/FCE/social-icons/twitter.png">
+            </a>
+          </td>
+          <td class="center">
+            <a href="http://www.{{ mall.mallname }}.com/go/mobile/mobileclub/">
+              <img class="center" src="https://s3.amazonaws.com/placewiseemailcontent/FCE/social-icons/mobile-club.png">
+            </a>
+          </td>
+          <td width="27%"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%">
+        <tr>
+          <td class="more-padding">
+            <a href="http://{{ mall.mallname }}.com">
+              <img class="center" src="https://s3.amazonaws.com/placewiseemailcontent/FCE/mall-logos/{{ mall.mallname }}-2.png">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <table width="100%">
+        <tr>
+          <td>
+            <center>
+              <span class="center apple-links-white">{{mall.streetaddress}}, {{mall.city}}, {{mall.state}}, {{mall.zip}} | <a href="tel:{{mall.phone-area}}.{{mall.phone-prefix}}.{{mall.phone-number}}">({{mall.phone-area}}) {{mall.phone-prefix}}-{{mall.phone-number}}</a></span>
+            </center>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>

@@ -1,5 +1,25 @@
+.container {
+  background-color: $color-white !important;
+}
+
+.center {
+  text-align: center;
+}
 .google-font {
 	font-family: 'Pacifico', cursive;
+}
+
+hr {
+  background-color: #d8d6d6 !important;
+}
+
+h3 {
+  display: inline-block;
+  font-size: 32px !important;
+}
+
+.hero-article {
+  padding: 20px 0;
 }
 
 p,
@@ -8,6 +28,16 @@ figcaption {
 	hyphens: auto;
 	word-wrap: break-word;
 	white-space: pre-wrap;
+}
+
+b {
+  display: block;
+  color: $color-brand-quaternary;
+}
+
+a.read-more {
+  display: block;
+  color: $color-brand-quaternary;
 }
 
 .toast {
@@ -25,35 +55,64 @@ figcaption {
 }
 
 .header {
-	background-color: $color-white;
+  table {
+    background-color: $color-brand-quinary;
 
-	td {
-		width: 50%;
-		vertical-align: middle;
-	}
+    td {
+      padding: 20px !important;
+    }
+  }
+}
 
-	ul {
-		@include horizontal-list;
-		margin: 0;
-	}
+.footer {
+  table {
+    background-color: $color-brand-quinary;
+
+    td {
+      padding: 20px 0 10px 0 !important;
+
+      &:last-of-type {
+        padding: 20px 0 20px 0 !important;
+      }
+    }
+  }
 }
 
 .hero {
-	img {
-		outline: 2px solid $color-brand-primary;
-	}
+  img {
+    width: 100%;
+  }
 }
 
-.hours {
+.nav {
 	table {
-		outline: 2px solid $color-brand-primary;
 		background-color: $color-brand-primary;
-	}
 
-	span {
-		font-weight: bold;
-		color: white;
-	}
+    td {
+      padding: 5px 10px 5px 10px;
+      color: $color-white !important;
+      text-align: center;
+
+      &:hover {
+        background-color: #670502;
+      }
+
+      a {
+        color: $color-white !important;
+
+        &:hover,
+        &:active,
+        &:visited {
+          color: $color-white !important;
+        }
+      }
+    }
+  }
+
+  span {
+    font-weight: bold;
+    color: $color-white !important;
+  }
 }
 
 .legend {
@@ -92,11 +151,6 @@ figcaption {
 .ads {
 	img {
 		margin-bottom: 10px;
-		outline: 2px solid $color-brand-primary;
-
-		&.iab {
-			outline: 2px solid $color-dark-grey;
-		}
 	}
 }
 
@@ -118,12 +172,11 @@ figcaption {
 
 .footer {
 	table {
-		outline: 2px solid $color-brand-primary;
-		background-color: $color-brand-primary;
+		background-color: $color-brand-quinary;
 	}
 
 	span {
-		color: $color-white;
+		color: $color-white !important;
 	}
 }
 
@@ -149,4 +202,56 @@ figcaption {
 		color: $color-black !important;
 		text-decoration: none;
 	}
+}
+
+.figcaption {
+  background-color: $color-brand-primary;
+
+  td {
+    padding: $column-gutter/2 0 !important;
+  }
+
+  h3 {
+    font-size: 20px;
+    display: inline-block;
+    border-top: 2px solid $color-brand-quinary;
+    color: $color-white !important;
+  }
+
+  td {
+    padding: 0 0 0 0;
+    color: $color-white !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .container {
+    padding: 0 !important;
+  }
+
+  .article-image {
+    padding: 0 !important;
+
+    img {
+      margin: 0 !important;
+    }
+  }
+
+  .banner,
+  .flex-nav {
+    width: 100% !important;
+  }
+
+  td[class="nav"] td {
+    display: block;
+    padding: 0 !important;
+    min-height: 2px;
+  }
+
+  td[class="nav"] a {
+    display: block;
+    padding: 10px 0 10px 0;
+    color: $color-white !important;
+  }
 }

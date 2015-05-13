@@ -1,11 +1,11 @@
-$container-width: 620px;
+$container-width: 650px;
 $column-gutter: 20px;
 $small-container-width: 90%;
 $total-columns: 12;
 
 $base-line-height: 1.443;
 $base-font-size: 16px;
-$base-font-color: #454545;
+$base-font-color: #8b8486;
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-weight: normal;
 
@@ -21,11 +21,11 @@ $color-dark-grey: #5c5b59;
 $color-off-white: #e5e5e5;
 
 // =Brand Palette
-$color-brand-primary: #ae4517; // Headings
+$color-brand-primary: #b83e3b; // Headings
 $color-brand-secondary: $base-font-color; // Text
 $color-brand-tertiary: $color-white; // Background
-$color-brand-quaternary: #678924; // Accent
-$color-brand-quinary: #e5dfd1; // Accent
+$color-brand-quaternary: #484b4d; // Accent
+$color-brand-quinary: #d0c047; // Accent
 
 // =Default Text Colors
 $base-font-color: $color-brand-secondary;
@@ -38,8 +38,8 @@ $base-border-radius: 3px;
 
 // =Links
 $base-link-bg: null;
-$base-link-color: $color-brand-quaternary;
-$base-link-color-hover: #7ec4bd;
+$base-link-color: $color-brand-primary;
+$base-link-color-hover: $color-brand-primary;
 $base-link-font-weight: 700;
 $base-link-text-decoration: none !default;
 $base-link-color-alt: $color-brand-secondary;
@@ -78,7 +78,7 @@ $heading-color-secondary: $color-brand-secondary;
 $heading-line-height: 1.25;
 
 $heading-list: (
-  h1   32   700   $heading-font-family    		$heading-color-primary,
+  h1   16   700   $heading-font-family    		$heading-color-primary,
   h2   28   700   $heading-font-family				$heading-color-primary,
   h3   24   400   $heading-font-family   			$heading-color-secondary,
   h4   19   200   $heading-font-family-alt    $heading-color-primary,

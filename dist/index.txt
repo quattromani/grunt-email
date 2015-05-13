@@ -1,48 +1,56 @@
 This is a toast - it will appear in the preview pane of the
 email client, use wisely!
 
-* ( )
+( http://victoriagardensie.com/register/ )
 
-* ( )
+DIRECTORY ( http://www.victoriagardensie.com/directory/ )
 
-* ( )
+SALES ( http://www.victoriagardensie.com/sales/ )
 
-* ( )
+DINING ( http://www.victoriagardensie.com/dine/ )
 
-Hours for February 25, 2015: 9am - 6pm
+EVENTS ( http://www.victoriagardensie.com/events/ )
 
-*********
-Heading 1
-*********
+**********************
+Lorem ipsum dolor sit.
+**********************
 
 Lorem ipsum dolor sit amet, consectetur adipisicing
 elit. Cumque aspernatur eveniet quis laboriosam molestias harum.
 
-Click Me » ( # )
+MORE > ( )
 
-( )
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consectetur adipisicing
+elit. Mollitia molestiae voluptates similique recusandae esse,
+officiis veritatis hic, eius obcaecati dicta enim ullam maiores
+vitae deleniti aut molestias delectus culpa in beatae distinctio
+laborum, dolores debitis.
+More › ( )
 
-( )
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consectetur adipisicing
+elit. Mollitia molestiae voluptates similique recusandae esse,
+officiis veritatis hic, eius obcaecati dicta enim ullam maiores
+vitae deleniti aut molestias delectus culpa in beatae distinctio
+laborum, dolores debitis.
+More › ( )
 
-( )
+DIRECTORY ( http://www.victoriagardensie.com/directory/ )
 
-( )
+SALES ( http://www.victoriagardensie.com/sales/ )
 
-Directory ( )
+DINING ( http://www.victoriagardensie.com/dine/ )
 
-Events ( )
+EVENTS ( http://www.victoriagardensie.com/events/ )
 
-Directons ( )
+( https://www.facebook.com/victoriagardensie?_rdr )
 
-Sales ( )
+( https://twitter.com/VictoriaGardens )
 
-I'm a figcaption I tell a bit about the image
+( http://www.ballston-common.com/go/mobile/mobileclub/ )
 
-Advertisement
+( http://ballston-common.com )
 
-I'm a figcaption I tell a bit about the image
-
-I'm a figcaption I tell a bit about the image
-
-608 North Gasser Road, Baraboo, WI, 53913 | (608) 253-5380
-( tel:608.253.5380 )
+12505 North Mainstreet, Suite 200, Rancho
+Cucamonga, CA, 91739 | (909) 463-2830 ( tel:909.463.2830 )

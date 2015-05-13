@@ -1,38 +1,45 @@
 <!doctype html>
-	<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title>{{ mall.subject }}</title>
-		<meta name="format-detection" content="telephone=no">
-		<link href='http://fonts.googleapis.com/css?family={{mall.google-fonts}}' rel='stylesheet' type='text/css'>
-		<!-- build:css css/tidy.css -->
-		<link rel="stylesheet" href="css/main.css">
-		<!-- /build -->
-	</head>
-	<body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ mall.subject }}</title>
+  <meta name="format-detection" content="telephone=no">
+  <link href='http://fonts.googleapis.com/css?family={{mall.google-fonts}}' rel='stylesheet' type='text/css'>
+  <!-- build:css css/tidy.css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- /build -->
+</head>
+<body class="{{ mall.theme }}">
 
-		{{> toast }}
+  {{> toast }}
 
-		<table class="body">
-			<tr>
-				<td class="center" align="center" valign="top">
-					<center>
+  <table class="body">
+   <tr>
+    <td class="center" align="center" valign="top">
+      <center>
 
-						{{> pre-header }}
+        {{> pre-header }}
 
-						{{> header }}
+        {{> header }}
 
-						{{ body }}
+        <table class="body-container">
+          <tr>
+            <td>
+              {{ body }}
+            </td>
+          </tr>
+        </table>
 
-						{{> footer }}
+        {{> footer }}
 
-						{{> post-footer }}
+        {{> post-footer }}
 
-					</center>
-				</td>
-			</tr>
-		</table>
 
-	</body>
+      </center>
+    </td>
+  </tr>
+</table>
+
+</body>
 </html>

@@ -156,7 +156,7 @@ module.exports = function(grunt) {
     		src: ['dist/index.html'],
     		options: {
           username: 'mallfinder', // Change this
-          password: 'pascalswager', // Change this
+          password: 'pl@cewise', // Change this
           url: 'https://mfnetwork.litmus.com', // Change this
           clients: ['android4', 'aolonline', 'androidgmailapp', 'aolonline', 'ffaolonline',
           'chromeaolonline', 'appmail6', 'iphone4', 'iphone5', 'iphone6', 'ipadmini', 'ipad', 'chromegmailnew',

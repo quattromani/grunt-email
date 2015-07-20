@@ -1,56 +1,20 @@
 This is a toast - it will appear in the preview pane of the
 email client, use wisely!
 
-( http://victoriagardensie.com/register/ )
+-logo.png" style="outline: none; text-decoration:
+none; -ms-interpolation-mode: bicubic; width: auto; max-width:
+100%; float: none; clear: both; display: block; text-align:
+center; margin: 0 auto; border: none;" align="none" /> ( http://bassettplace.com/register/ )
 
-DIRECTORY ( http://www.victoriagardensie.com/directory/ )
+-icon-bar.png" style="outline: none; text-decoration:
+none; -ms-interpolation-mode: bicubic; width: auto; max-width:
+100%; float: none; clear: both; display: block; text-align:
+center; margin: 0 auto;" align="none" />
 
-SALES ( http://www.victoriagardensie.com/sales/ )
+( https://www.facebook.com/ )
 
-DINING ( http://www.victoriagardensie.com/dine/ )
+( https://twitter.com/ )
 
-EVENTS ( http://www.victoriagardensie.com/events/ )
+( tel: )
 
-**********************
-Lorem ipsum dolor sit.
-**********************
-
-Lorem ipsum dolor sit amet, consectetur adipisicing
-elit. Cumque aspernatur eveniet quis laboriosam molestias harum.
-
-MORE > ( )
-
-Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consectetur adipisicing
-elit. Mollitia molestiae voluptates similique recusandae esse,
-officiis veritatis hic, eius obcaecati dicta enim ullam maiores
-vitae deleniti aut molestias delectus culpa in beatae distinctio
-laborum, dolores debitis.
-More › ( )
-
-Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consectetur adipisicing
-elit. Mollitia molestiae voluptates similique recusandae esse,
-officiis veritatis hic, eius obcaecati dicta enim ullam maiores
-vitae deleniti aut molestias delectus culpa in beatae distinctio
-laborum, dolores debitis.
-More › ( )
-
-DIRECTORY ( http://www.victoriagardensie.com/directory/ )
-
-SALES ( http://www.victoriagardensie.com/sales/ )
-
-DINING ( http://www.victoriagardensie.com/dine/ )
-
-EVENTS ( http://www.victoriagardensie.com/events/ )
-
-( https://www.facebook.com/victoriagardensie?_rdr )
-
-( https://twitter.com/VictoriaGardens )
-
-( http://www.ballston-common.com/go/mobile/mobileclub/ )
-
-( http://ballston-common.com )
-
-12505 North Mainstreet, Suite 200, Rancho
-Cucamonga, CA, 91739 | (909) 463-2830 ( tel:909.463.2830 )
+, , ,

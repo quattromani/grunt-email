@@ -481,7 +481,7 @@ img.center {
 
 /* Typography */
 body, table.body, p, td {
-  color: #8b8486;
+  color: #333333;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
   padding: 0;
@@ -520,7 +520,7 @@ h3,
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.25;
-  color: #8b8486;
+  color: #333333;
 }
 
 h4,
@@ -542,7 +542,7 @@ h5,
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.25;
-  color: #8b8486;
+  color: #333333;
 }
 
 h6,
@@ -553,7 +553,7 @@ h6,
   font-size: 1.6rem;
   font-weight: 100;
   line-height: 1.25;
-  color: #8b8486;
+  color: #333333;
 }
 
 body, table.body, p, td {
@@ -580,15 +580,15 @@ a {
 }
 
 a:hover {
-  color: #b83e3b !important;
+  color: #06263d !important;
 }
 
 a:active {
-  color: #b83e3b !important;
+  color: #06263d !important;
 }
 
 a:visited {
-  color: #b83e3b !important;
+  color: #06263d !important;
 }
 
 h1 a,
@@ -744,7 +744,7 @@ table.large-button td a:visited {
 }
 
 table.secondary td {
-  background: #8b8486;
+  background: #333333;
   border-color: #d0d0d0;
   color: #555555;
 }
@@ -936,6 +936,10 @@ body.outlook p {
   background-color: #ffffff !important;
 }
 
+.body-container .container {
+  max-width: 600px;
+}
+
 .center {
   text-align: center;
 }
@@ -990,14 +994,15 @@ a.read-more {
 }
 
 .header table {
-  background-color: #d0c047;
+  border-top: 5px solid #06263d;
+  border-bottom: 20px solid #06263d;
 }
 .header table td {
   padding: 20px !important;
 }
 
 .footer table {
-  background-color: #d0c047;
+  color: #9e9e9e;
 }
 .footer table td {
   padding: 20px 0 10px 0 !important;
@@ -1006,12 +1011,16 @@ a.read-more {
   padding: 20px 0 20px 0 !important;
 }
 
+.post-footer table {
+  background-color: #06263d;
+}
+
 .hero img {
   width: 100%;
 }
 
 .nav table {
-  background-color: #b83e3b;
+  background-color: #06263d;
 }
 .nav table td {
   padding: 5px 10px 5px 10px;
@@ -1039,8 +1048,8 @@ a.read-more {
 .legend table {
   border-collapse: seperate;
   padding: 10px;
-  outline: 2px solid #d0c047;
-  background-color: #d0c047;
+  outline: 2px solid #06263d;
+  background-color: #06263d;
 }
 .legend table table {
   border-collapse: collapse;
@@ -1079,13 +1088,6 @@ figcaption .iab {
   text-transform: uppercase;
 }
 
-.footer table {
-  background-color: #d0c047;
-}
-.footer span {
-  color: #ffffff !important;
-}
-
 .text-right {
   text-align: right;
 }
@@ -1109,7 +1111,7 @@ figcaption .iab {
 }
 
 .figcaption {
-  background-color: #b83e3b;
+  background-color: #06263d;
 }
 .figcaption td {
   padding: 10px 0 !important;
@@ -1117,7 +1119,7 @@ figcaption .iab {
 .figcaption h3 {
   font-size: 20px;
   display: inline-block;
-  border-top: 2px solid #d0c047;
+  border-top: 2px solid #06263d;
   color: #ffffff !important;
 }
 .figcaption td {

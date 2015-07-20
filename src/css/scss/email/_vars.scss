@@ -5,7 +5,7 @@ $total-columns: 12;
 
 $base-line-height: 1.443;
 $base-font-size: 16px;
-$base-font-color: #8b8486;
+$base-font-color: #333333;
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-weight: normal;
 
@@ -21,11 +21,11 @@ $color-dark-grey: #5c5b59;
 $color-off-white: #e5e5e5;
 
 // =Brand Palette
-$color-brand-primary: #b83e3b; // Headings
+$color-brand-primary: #06263d; // Headings
 $color-brand-secondary: $base-font-color; // Text
 $color-brand-tertiary: $color-white; // Background
 $color-brand-quaternary: #484b4d; // Accent
-$color-brand-quinary: #d0c047; // Accent
+$color-brand-quinary: #06263d; // Accent
 
 // =Default Text Colors
 $base-font-color: $color-brand-secondary;

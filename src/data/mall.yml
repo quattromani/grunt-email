@@ -5,23 +5,22 @@ author: Max Quattromani
 email: max@maxquattromani.com
 description: ""
 baseurl: "/"
-mallname: ballston-common
-url: victoriagardensie
+mallname: bassett-place
+url: bassettplace
 author: "Max Quattromani"
-facebook: victoriagardensie?_rdr
-twitter: VictoriaGardens
+facebook: bassettplace
+twitter: bassettplace
 
-name: Victoria Gardens
-streetaddress: 12505 North Mainstreet, Suite 200
-city: Rancho Cucamonga
-state: CA
-zip: 91739
-phone-area: 909
-phone-prefix: 463
-phone-number: 2830
-hours: 9am - 6pm
+name: Bassett Place
+streetaddress: 6101 Gateway Boulevard West
+city: El Paso
+state: TX
+zip: 79925
+phone-area: 915
+phone-prefix: 772
+phone-number: 7479
 
-theme: urban
+theme: cypress
 
 # Build settings
 exclude: ['node_modules', 'scss', 'DAM']
